@@ -13,6 +13,8 @@
 		C8375CD125A0A99A0035F28F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8375CCF25A0A99A0035F28F /* Main.storyboard */; };
 		C8375CD325A0A99B0035F28F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8375CD225A0A99B0035F28F /* Assets.xcassets */; };
 		C8375CD625A0A99B0035F28F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8375CD425A0A99B0035F28F /* LaunchScreen.storyboard */; };
+		C8375CE025A0DBF30035F28F /* question.png in Resources */ = {isa = PBXBuildFile; fileRef = C8375CDF25A0DBF30035F28F /* question.png */; };
+		C8375CE325A0DBF80035F28F /* answer.png in Resources */ = {isa = PBXBuildFile; fileRef = C8375CE225A0DBF80035F28F /* answer.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C8375CD225A0A99B0035F28F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8375CD525A0A99B0035F28F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8375CD725A0A99B0035F28F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8375CDF25A0DBF30035F28F /* question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question.png; sourceTree = "<group>"; };
+		C8375CE225A0DBF80035F28F /* answer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = answer.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		C8375CBD25A0A99A0035F28F = {
 			isa = PBXGroup;
 			children = (
+				C8375CDE25A0DBD70035F28F /* Presentation */,
 				C8375CC825A0A99A0035F28F /* Guess the Flag */,
 				C8375CC725A0A99A0035F28F /* Products */,
 			);
@@ -65,6 +70,15 @@
 				C8375CD725A0A99B0035F28F /* Info.plist */,
 			);
 			path = "Guess the Flag";
+			sourceTree = "<group>";
+		};
+		C8375CDE25A0DBD70035F28F /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C8375CE225A0DBF80035F28F /* answer.png */,
+				C8375CDF25A0DBF30035F28F /* question.png */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +139,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8375CD625A0A99B0035F28F /* LaunchScreen.storyboard in Resources */,
+				C8375CE325A0DBF80035F28F /* answer.png in Resources */,
 				C8375CD325A0A99B0035F28F /* Assets.xcassets in Resources */,
 				C8375CD125A0A99A0035F28F /* Main.storyboard in Resources */,
+				C8375CE025A0DBF30035F28F /* question.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
